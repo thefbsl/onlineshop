@@ -1,0 +1,166 @@
+body{
+    background-color: #545449;
+}
+
+header{
+    background-color: #545449;
+    height: 80px;
+}
+
+header span{
+    font-family: "Agency FB";
+    font-size: 80px;
+    margin-left: 30px;
+}
+
+.fs-4{
+    font-family: "Agency FB";
+    font-size: 100px;
+    margin-left: 30px;
+}
+
+header a{
+    font-family: "Bell MT";
+    font-size: 20px;
+    padding: 20px;
+}
+
+.banner{
+    display: flex;
+    margin: 50px;
+}
+
+.ban{
+    margin-right: auto;
+}
+
+.catalog{
+    width: 200px;
+    height: 360px;
+    margin: 40px;
+    border: 3px solid black;
+    list-style: none;
+}
+
+.catalog ul{
+    list-style: none;
+}
+
+.catalog li a{
+    font-family: Bahnschrift;
+    font-size: 15px;
+    color: black;
+    text-decoration: none;
+    list-style: none;
+}
+
+.catalog h2{
+    font-family: Bahnschrift;
+    font-size: 40px;
+}
+
+.product{
+    width: 700px;
+    height: 500px;
+}
+
+.items{
+    width: 1000px;
+    margin-left:100px;
+    display: flex;
+    padding: 40px;
+}
+
+.items .product{
+    margin: 30px;
+    width: 100%;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+}
+
+.price {
+    color: grey;
+    font-size: 22px;
+}
+
+.card button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+}
+
+.card button:hover {
+    opacity: 0.7;
+}
+
+
+footer{
+    background-color: #545449;
+    padding: 40px;
+    left: 0;
+    bottom: 0;
+}
+
+form{
+    align-content: center;
+    position: absolute;
+    width: 500px;
+    height: 550px;
+    justify-content: center;
+    margin-left: 500px;
+    margin-top: 100px;
+    border: 3px solid black;
+    border-radius: 8px;
+    padding: 10px;
+    background-color: beige;
+}
+
+.reg{
+    align-content: center;
+    position: absolute;
+    width: 500px;
+    height: 550px;
+    justify-content: center;
+    margin-left: 500px;
+    margin-top: 100px;
+    border: 3px solid black;
+    border-radius: 8px;
+    padding: 10px;
+    background-color: beige;
+}
+
+form label{
+    font-size: 25px;
+}
+
+.basket{
+    width: 1200px;
+    height: 500px;
+    border: 3px solid black;
+    margin-left: 150px;
+}
+
+#sum{
+    margin-left: 1100px;
+}
+
+#order{
+    margin-left: 1100px;
+    color: aliceblue;
+    background-color: #343636;
+    border: 2px solid black
+}
+
+
